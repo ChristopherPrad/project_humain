@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Corps Humain</title>
+    <link href="./style/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <a href="https://fontmeme.com/fr/polices-dhalloween/"
+        ><img
+          src="https://fontmeme.com/permalink/190611/5ce32a02da602d4b7dfe2019da205d0b.png"
+          alt="polices-dhalloween"
+      /></a>
+    </header>
+
+    <p id="modal"></p>
+    <section id="corps">
+      <div id="tete" onclick="openModal('tete')">
+        <img src="media/tete.png" alt="tete" />
+
+        <img onclick="clickSong()" id="lametete" src="media/sie.png" alt="" />
+      </div>
+      <div id="epaule" onclick="openModal('epaule')">
+        <img onclick="clickSong()" id="lameepaule" src="media/sie.png" alt="" />
+        <img src="media/epaule.png" alt="epaule" />
+      </div>
+      <div id="ventre" onclick="openModal('ventre')">
+        <img onclick="clickSong()" id="lameventre" src="media/sie.png" alt="" />
+        <img src="media/ventre.png" alt="ventre" />
+      </div>
+      <div id="penis" onclick="openModal('appareil reproducteur')">
+        <img onclick="clickSong()" id="lamepenis" src="media/sie.png" alt="" />
+        <img src="./media/reproduction.png" alt="appareil reproducteur" />
+      </div>
+      <div id="jambes" onclick="openModal('jambes')">
+        <img onclick="clickSong()" id="lamejambes" src="media/sie.png" alt="" />
+        <img src="media/jambes.png" alt="jambes" />
+      </div>
+    </section>
+    <div class="container-modal">
+      <div class="modal">
+        <h1 id="title-modal">qsdgqsdg</h1>
+        <p id="text-modal">qsdfsd</p>
+        <img onclick="closeModal()" src="media/close.png" alt="fermer" />
+      </div>
+    </div>
+
+    <script src="script/index.js"></script>
+  </body>
+</html>

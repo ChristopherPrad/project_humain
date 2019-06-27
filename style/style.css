@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arvo", serif;
+}
+
+body {
+  width: 100%;
+  background-image: url("../media/fonde.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 8vw;
+  text-shadow: 3px 1px 1px white;
+}
+
+#corps {
+  margin-top: 5%;
+  margin-left: 50vw;
+  -webkit-transform: translate(-7%);
+          transform: translate(-7%);
+}
+
+#corps #tete {
+  position: relative;
+}
+
+#corps #epaule {
+  position: relative;
+}
+
+#corps #ventre {
+  position: relative;
+}
+
+#corps #penis {
+  position: relative;
+}
+
+#corps #jambes {
+  position: relative;
+}
+
+#corps img {
+  margin: -3px;
+}
+
+#corps img:hover {
+  cursor: help;
+}
+
+.container-modal {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.container-modal .modal {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 30vw;
+  height: 40vh;
+  position: absolute;
+  top: 20%;
+  left: 75vw;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  border-radius: 3px;
+  padding: 2%;
+}
+
+.container-modal .modal button {
+  position: fixed;
+  top: 2vh;
+  left: 95%;
+}
+
+.container-modal .modal h1 {
+  font-size: 4vw;
+}
+
+.container-modal .modal p {
+  font-size: 2vw;
+}
+
+#lametete {
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  opacity: 0;
+}
+
+#lametete:hover {
+  opacity: 1;
+  -webkit-animation: example 1s linear infinite;
+          animation: example 1s linear infinite;
+}
+
+@-webkit-keyframes example {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes example {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+#lameepaule {
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  opacity: 0;
+}
+
+#lameepaule:hover {
+  opacity: 1;
+  -webkit-animation: example 1s linear infinite;
+          animation: example 1s linear infinite;
+}
+
+@keyframes example {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+#lameventre {
+  opacity: 0;
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 7%;
+}
+
+#lameventre:hover {
+  opacity: 1;
+  -webkit-animation: example 1s linear infinite;
+          animation: example 1s linear infinite;
+}
+
+@keyframes example {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+#lamepenis {
+  opacity: 0;
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 7%;
+}
+
+#lamepenis:hover {
+  opacity: 1;
+  -webkit-animation: example 1s linear infinite;
+          animation: example 1s linear infinite;
+}
+
+@keyframes example {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+#lamejambes {
+  opacity: 0;
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+#lamejambes:hover {
+  opacity: 1;
+  -webkit-animation: example 1s linear infinite;
+          animation: example 1s linear infinite;
+}
+
+@keyframes example {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+header {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  top: 80px;
+}
+/*# sourceMappingURL=style.css.map */
